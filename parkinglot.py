@@ -110,6 +110,8 @@ if __name__ == "__main__":
     lot.add_floor(floor1)
 
     bike = Vehicle("BIKE123", "bike")
+    car = Vehicle("CAR123", "car")
+    truck = Vehicle("TRUCK123", "truck")
     lot.park_vehicle(bike)
 
 
